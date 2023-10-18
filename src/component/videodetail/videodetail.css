@@ -1,0 +1,21 @@
+.link{
+    text-decoration: none;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+  }
+  .video-details{
+    background-color: black;
+ }
+@media(max-width: 991px){
+   .video-details{
+      background-color: rgb(29, 28, 28);
+   }
+}
+@media(max-width: 767px){
+  .video-details .video-box{
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}

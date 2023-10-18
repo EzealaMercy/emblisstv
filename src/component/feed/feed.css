@@ -1,0 +1,9 @@
+.feed{
+    background: black;
+}
+@media(max-width: 767px){
+    .video-feed{
+        background: rgb(29, 28, 28);
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,31 @@
+.head{
+    text-decoration: none;
+}
+.card, .media{
+    width: 270px;
+}
+.card .card-content{
+    background-color: rgb(10, 10, 10);
+}
+@media screen and (min-width: 768px) and (max-width:1180px){
+    .card, .media{
+        width: 353px;
+    }
+    .card .card-content{
+        background-color: rgb(10, 10, 10);
+    }
+}
+@media(max-width: 767px){
+    .card, .media{
+        width: 412px;
+        box-shadow: 0px;
+        border-style: 0px;
+    }
+    .card .card-content{
+        background: rgb(29, 28, 28);
+        padding-left: 20px;
+    }
+    .card .head .media{
+        height: 200px;
+    }
+}

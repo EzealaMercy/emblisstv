@@ -1,0 +1,144 @@
+.nav{
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.978);
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.youtube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    text-decoration: none;
+}
+.search-videos{
+    display: none;
+}
+.youtube .yutube{
+    color: red;
+    font-size: 55px;  
+}
+.youtube h2{
+    color: white;
+}
+.youtube h2 span{
+    color: red;
+}
+.search{
+    width: 40%;
+}
+.search-items{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.search .search-items input{
+    width: 80%;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    outline: none;
+    border-style: none;
+}
+.search input::placeholder{
+    font-size: 16px;
+    padding-left: 5px;
+}
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+/*x-small*/
+@media(max-width: 575px){
+.search-videos{
+    display: block;
+}
+.search-videos input{
+    width: 100%;
+    border-style: none;
+    outline: none;
+    padding: 18px 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.search-videos .search-items input::placeholder{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.search-videos .keyvoice{
+    margin-right: 15px;
+    padding: 5px;
+    background: whitesmoke;
+    border-radius: 50%;
+    font-size: 28px;
+}
+.search-videos .search-icon{
+    margin-right: 7px;
+    padding: 6px;
+    font-size: 30px;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+.search-videos .search-items{
+    width: 100%;
+    margin: 0 auto;
+}
+.search{
+    display: none;
+}
+.account .videocall{
+    display: none;
+}
+.youtube{
+    width: 20%;
+}
+.nav{
+    width: 100%;
+    padding: 0px 0;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+}
+.youtube .yutube{
+    color: rgba(255, 0, 0, 0.967);
+    font-size: 35px;  
+}
+.youtube h2{
+    color: white;
+    font-size: 28px;
+}
+.nav .account .avatar{
+    width: 30px;
+    height: 4vh;
+    object-fit: contain;
+    margin-right: 10px;
+}
+}
+/*mobile*/
+@media screen and (min-width: 576px) and (max-width:767px){
+}
+/*ipad*/
+@media screen and (min-width: 767px) and (max-width:991px){
+    .nav{
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+/*ipad pro*/
+@media(max-width: 992px){
+    .nav .account .home-btn{
+        background: rgb(63, 62, 62);
+        padding: 5px;
+        font-size: 27px;
+        color: rgba(255, 0, 0, 0.895);
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+}
